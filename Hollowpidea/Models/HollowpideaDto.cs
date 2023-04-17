@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Hollowpidea.Models
 {
-    public class PokedexDto
+    public class 
     {
         
     }

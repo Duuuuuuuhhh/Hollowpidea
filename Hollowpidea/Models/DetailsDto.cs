@@ -1,12 +1,8 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace Hollowpidea.Models
+namespace Hollowpidea.Models;
 {
     public class DetailsDto
     {
-        
+        public Personagem Prior {get;set;}
+        public Personagem
     }
 }
