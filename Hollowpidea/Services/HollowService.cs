@@ -75,3 +75,12 @@ private void PopularSessao()
             .Setstring("Tribos", LerArquivo(TribosFile));
     }
 }
+
+private string LerArquivo(string fileName)
+{
+    using (StreamReader leitor = new StreamReader(fileName))
+    {
+        string dados = leitor.ReadToEnd();
+        return dados;
+    }
+}
