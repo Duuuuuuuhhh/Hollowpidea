@@ -7,7 +7,7 @@ namespace Hollowpidea.services;
         List<Tribo> GetTribos();
         personagem GetPersonagem(int Numero);
         hollowpideaDto GetHollowpideaDto ();
-        datailsDto GetDatailsDto (int numero);*/
-        tribos GetTribos (string nome);
+        DatailsDto GetDetailedPersonagem (int numero);*/
+        tribo GetTribo (string nome);
     }
 }
