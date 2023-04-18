@@ -1,13 +1,13 @@
-=-using Hollowpidea.Models;
-namespace Hollowpidea.services;
+using Hollowpidea.Models;
+
+namespace Hollowpidea.Services;
+
+public interface IHollowService
 {
-    public interface IHollowService
-    {
-        List<Personagem> GetPersonagens();
-        List<Tribo> GetTribos();
-        personagem GetPersonagem(int Numero);
-        hollowpideaDto GetHollowpideaDto ();
-        DatailsDto GetDetailedPersonagem (int numero);*/
-        tribo GetTribo (string nome);
-    }
+    List<Personagem> GetPersonagens();
+    List<Tribo> GetTribos();
+    Personagem GetPersonagem(int Numero);
+    hollowpideaDto GetHollowpideaDto();
+    DetailsDto GetDetailedPersonagem(int Numero);
+    Tribo GetTribo(string Nome);
 }

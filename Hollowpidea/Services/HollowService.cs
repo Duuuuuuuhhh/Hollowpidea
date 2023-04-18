@@ -1,7 +1,7 @@
 using System.Text.Json;
 using Hollowpidea.Models;
 
-namespace Hollowpidea.services;
+namespace Hollowpidea.Services;
 
 public class hollowservice : IHollowService
 {
@@ -17,70 +17,71 @@ public class hollowservice : IHollowService
     public List<Personagem> GetPersonagens()
     {
         PopularSessao();
-        var Personagens = JsonSerializer.Deserialize<list<Personagem>>
-            (_session.HttpContext.session.getstring("Personagens"));
-            return Personagens;
+        var Personagens = JsonSerializer.Deserialize<List<Personagem>>
+            (_session.HttpContext.Session.GetString("Personagens"));
+        return Personagens;
     }
 
-public list<Tribo> GetTribos()
-{
-    Popularsessao();
-    var Tribos = jsonserializer.Deserialize<list<Tribo>>
-    (_session.HttpContext.session.getstring("Tribos"));
-    return Tribos;
-}
-
-public Personagem GetPersonagem (int numero)
-{
-    var Personagens = GetPersonagens();
-    return Personagens.where(p => p.Numero == Numero).FirstOrDefault();
-}
-public hollowpideaDto GetHollowpideaDto()
-{
-    var Hollows = new hollowpideaDto()
+    public List<Tribo> GetTribos()
     {
-        Personagens = GetPersonagens(),
-        Tribos = GetTribos()
-    };
-    return Hollows;
-}
-public DetailsDto GetDetailedPersonagem (int Numero)
-{
-    var Personagens = GetPersonagens();
-    var Hollow = new DetailsDto()
-    {
-        Current = Personagens.where(p => p.Numero == Numero)
-            .FirstOrDefault(),
-        Prior = Personagens.OrderByDescending(p => p.Numero)
-            .FirstOrDefault(p => p.Numero < Numero),
-        Next = Personagens.OrderBy(p => p.Numero)
-            .FirstOrDefault(p => p.Numero > Numero),
-    };
-    return Hollow;
-}
-
-public Tribo GetTribo(string Nome)
-{
-    var Tribos = GetTribos();
-    return Tribos.where(t => t.Nome == Nome).FirstOrDefault();
-}
-
-private void PopularSessao()
-{
-    if (string.IsNullOrEmpty(_session.HttpContext.session.getstring("Tribos")))
-    {
-        _session.HttpContext.session
-            .Setstring("Personagens", LerArquivo(PersonagemFile));
-        _session.HttpContext.session
-            .Setstring("Tribos", LerArquivo(TribosFile));
+        PopularSessao();
+        var Tribos = JsonSerializer.Deserialize<List<Tribo>>
+        (_session.HttpContext.Session.GetString("Tribos"));
+        return Tribos;
     }
-}
 
-private string LerArquivo(string fileName)
-{
-    using (StreamReader leitor = new StreamReader(fileName))
+    public Personagem GetPersonagem(int Numero)
     {
-        string dados = leitor.ReadToEnd();
-        return dados;
+        var Personagens = GetPersonagens();
+        return Personagens.Where(p => p.Numero == Numero).FirstOrDefault();
+    }
+    public hollowpideaDto GetHollowpideaDto()
+    {
+        var Hollows = new hollowpideaDto()
+        {
+            Personagens = GetPersonagens(),
+            Tribos = GetTribos()
+        };
+        return Hollows;
+    }
+    public DetailsDto GetDetailedPersonagem(int Numero)
+    {
+        var Personagens = GetPersonagens();
+        var Hollow = new DetailsDto()
+        {
+            Current = Personagens.Where(p => p.Numero == Numero)
+                .FirstOrDefault(),
+            Prior = Personagens.OrderByDescending(p => p.Numero)
+                .FirstOrDefault(p => p.Numero < Numero),
+            Next = Personagens.OrderBy(p => p.Numero)
+                .FirstOrDefault(p => p.Numero > Numero),
+        };
+        return Hollow;
+    }
+
+    public Tribo GetTribo(string Nome)
+    {
+        var Tribos = GetTribos();
+        return Tribos.Where(t => t.Nome == Nome).FirstOrDefault();
+    }
+
+    private void PopularSessao()
+    {
+        if (string.IsNullOrEmpty(_session.HttpContext.Session.GetString("Tribos")))
+        {
+            _session.HttpContext.Session
+                .SetString("Personagens", LerArquivo(PersonagemFile));
+            _session.HttpContext.Session
+                .SetString("Tribos", LerArquivo(TribosFile));
+        }
+    }
+
+    private string LerArquivo(string fileName)
+    {
+        using (StreamReader leitor = new StreamReader(fileName))
+        {
+            string dados = leitor.ReadToEnd();
+            return dados;
+        }
     }
 }
