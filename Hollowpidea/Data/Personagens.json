@@ -56,8 +56,224 @@
   {
     "Numero": 10,
     "Nome": "Tecelã",
-    "Tipo": [ "Planta", "Venenoso" ] ,
+    "Tipo": [ "Tribo das Aranhas" ] ,
     "Imagem": "\\img\\pokemons\\0010.png"
+  },
+  {
+    "Numero": 11,
+    "Nome": "A Buscadora de Deuses",
+    "Tipo": [ "Tribo dos Buscadores de Deuses" ] ,
+    "Imagem": "\\img\\pokemons\\011.png"
+  },
+  {
+    "Numero": 12,
+    "Nome": "Buscador de Deuses 1",
+    "Tipo": [ "Tribo dos Buscadores de Deuses" ] ,
+    "Imagem": "\\img\\pokemons\\012.png"
+  },
+  {
+    "Numero": 13,
+    "Nome": "Buscador de Deuses 2",
+    "Tipo": [ "Tribo dos Buscadores de Deuses" ] ,
+    "Imagem": "\\img\\pokemons\\013.png"
+  },
+  {
+    "Numero": 14,
+    "Nome": "Buscador de Deuses 3",
+    "Tipo": [ "Tribo dos Buscadores de Deuses" ] ,
+    "Imagem": "\\img\\pokemons\\014.png"
+  },
+  {
+    "Numero": 15,
+    "Nome": "Caracol de Cristal",
+    "Tipo": [ "Tribo dos Caracóis" ] ,
+    "Imagem": "\\img\\pokemons\\015.png"
+  },
+  {
+    "Numero": 16,
+    "Nome": "Caracol Crescido",
+    "Tipo": [ "Tribo dos Caracóis" ] ,
+    "Imagem": "\\img\\pokemons\\016.png"
+  },
+  {
+    "Numero": 17,
+    "Nome": "Caracol Xamã",
+    "Tipo": [ "Tribo dos Caracóis" ] ,
+    "Imagem": "\\img\\pokemons\\017.png"
+  },
+  {
+    "Numero": 18,
+    "Nome": "Caracol das Almas",
+    "Tipo": [ "Tribo dos Caracóis" ] ,
+    "Imagem": "\\img\\pokemons\\018.png"
+  },
+  {
+    "Numero": 19,
+    "Nome": "Fungo Gigante",
+    "Tipo": [ "Tribo dos Cogumelos" ] ,
+    "Imagem": "\\img\\pokemons\\019.png"
+  },
+  {
+    "Numero": 20,
+    "Nome": "Ogro Fúngico",
+    "Tipo": [ "Tribo dos Cogumelos" ] ,
+    "Imagem": "\\img\\pokemons\\020.png"
+  },
+  {
+    "Numero": 21,
+    "Nome": "Guerreiro Fúngico",
+    "Tipo": [ "Tribo dos Cogumelos" ] ,
+    "Imagem": "\\img\\pokemons\\021.png"
+  },
+  {
+    "Numero": 22,
+    "Nome": "Filhote Fúngico",
+    "Tipo": [ "Tribo dos Cogumelos" ] ,
+    "Imagem": "\\img\\pokemons\\022.png"
+  },
+  {
+    "Numero": 23,
+    "Nome": "Louco",
+    "Tipo": [ "Tribo dos Estudiosos das Almas" ] ,
+    "Imagem": "\\img\\pokemons\\023.png"
+  },
+  {
+    "Numero": 24,
+    "Nome": "Erro",
+    "Tipo": [ "Tribo dos Estudiosos das Almas" ] ,
+    "Imagem": "\\img\\pokemons\\024.png"
+  },
+  {
+    "Numero": 25,
+    "Nome": "Mestre das Almas",
+    "Tipo": [ "Tribo dos Estudiosos das Almas" ] ,
+    "Imagem": "\\img\\pokemons\\025.png"
+  },
+  {
+    "Numero": 26,
+    "Nome": "Manipuladores de Alma",
+    "Tipo": [ "Tribo dos Estudiosos das Almas" ] ,
+    "Imagem": "\\img\\pokemons\\026.png"
+  },
+  {
+    "Numero": 27,
+    "Nome": "Guerreiro das Almas",
+    "Tipo": [ "Tribo dos Estudiosos das Almas" ] ,
+    "Imagem": "\\img\\pokemons\\027.png"
+  },
+  {
+    "Numero": 28,
+    "Nome": "Manipulador Voltaico",
+    "Tipo": [ "Tribo dos Estudiosos das Almas" ] ,
+    "Imagem": "\\img\\pokemons\\028.png"
+  },
+  {
+    "Numero": 29,
+    "Nome": "Fluke Eremita",
+    "Tipo": [ "Tribo dos Flukes" ] ,
+    "Imagem": "\\img\\pokemons\\029.png"
+  },
+  {
+    "Numero": 30,
+    "Nome": "Flukefey",
+    "Tipo": [ "Tribo dos Flukes" ] ,
+    "Imagem": "\\img\\pokemons\\030.png"
+  },
+  {
+    "Numero": 31,
+    "Nome": "Flukemarm",
+    "Tipo": [ "Tribo dos Flukes" ] ,
+    "Imagem": "\\img\\pokemons\\031.png"
+  },
+  {
+    "Numero": 32,
+    "Nome": "Flukemon",
+    "Tipo": [ "Tribo dos Flukes" ] ,
+    "Imagem": "\\img\\pokemons\\032.png"
+  },
+  {
+    "Numero": 33,
+    "Nome": "Flukemunga",
+    "Tipo": [ "Tribo dos Flukes" ] ,
+    "Imagem": "\\img\\pokemons\\033.png"
+  },
+  {
+    "Numero": 34,
+    "Nome": "Lordes Louva-a-Deus",
+    "Tipo": [ "Tribo dos Louva-a-Deus" ] ,
+    "Imagem": "\\img\\pokemons\\034.png"
+  },
+  {
+    "Numero": 35,
+    "Nome": "Louva-a-Deus Petra",
+    "Tipo": [ "Tribo dos Louva-a-Deus" ] ,
+    "Imagem": "\\img\\pokemons\\035.png"
+  },
+  {
+    "Numero": 36,
+    "Nome": "Traidor Louva-a-Deus",
+    "Tipo": [ "Tribo dos Louva-a-Deus" ] ,
+    "Imagem": "\\img\\pokemons\\036.png"
+  },
+  {
+    "Numero": 37,
+    "Nome": "Louva-a-Deus Guerreiro",
+    "Tipo": [ "Tribo dos Louva-a-Deus" ] ,
+    "Imagem": "\\img\\pokemons\\037.png"
+  }
+  {
+    "Numero": 38,
+    "Nome": "Louva-a-Deus Jovem",
+    "Tipo": [ "Tribo dos Louva-a-Deus" ] ,
+    "Imagem": "\\img\\pokemons\\038.png"
+  },
+  {
+    "Numero": 39,
+    "Nome": "Lorde Traidor",
+    "Tipo": [ "Tribo dos Louva-a-Deus" ] ,
+    "Imagem": "\\img\\pokemons\\039.png"
+  },
+  {
+    "Numero": 40,
+    "Nome": "Markoth",
+    "Tipo": [ "Tribo das Mariposas" ] ,
+    "Imagem": "\\img\\pokemons\\040.png"
+  },
+  {
+    "Numero": 41,
+    "Nome": "A Radiância",
+    "Tipo": [ "Tribo das Mariposas" ] ,
+    "Imagem": "\\img\\pokemons\\041.png"
+  },
+  {
+    "Numero": 42,
+    "Nome": "A Vidente",
+    "Tipo": [ "Tribo das Mariposas" ] ,
+    "Imagem": "\\img\\pokemons\\042.png"
+  },
+  {
+    "Numero": 43,
+    "Nome": "Thistlewind",
+    "Tipo": [ "Tribo das Mariposas" ] ,
+    "Imagem": "\\img\\pokemons\\043.png"
+  },
+  {
+    "Numero": 44,
+    "Nome": "Mariposa sem nome",
+    "Tipo": [ "Tribo das Mariposas" ] ,
+    "Imagem": "\\img\\pokemons\\044.png"
+  },
+  {
+    "Numero": 45,
+    "Nome": "Batedor Musgoso Imenso",
+    "Tipo": [ "Tribo dos Musgosos" ] ,
+    "Imagem": "\\img\\pokemons\\045.png"
+  },
+  {
+    "Numero": 1,
+    "Nome": "Bulbasaur",
+    "Tipo": [ "Planta", "Venenoso" ] ,
+    "Imagem": "\\img\\pokemons\\001.png"
   },
   {
     "Numero": 1,
@@ -77,4 +293,6 @@
     "Tipo": [ "Planta", "Venenoso" ] ,
     "Imagem": "\\img\\pokemons\\001.png"
   }
-]   
+ 
+ 
+ ]   
