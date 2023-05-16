@@ -1,9 +1,63 @@
 ﻿[
   {
     "Numero": 1,
-    "Nome": "",
-    "Tipo": [ "Planta", "Venenoso" ] ,
+    "Nome": "Carcaça da Colmeia",
+    "Tipo": [ "Tribo das Abelhas" ] ,
     "Imagem": "\\img\\pokemons\\001.png"
+  },
+  {
+    "Numero": 2,
+    "Nome": "Filhotes da Colmeia",
+    "Tipo": [ "Tribo das Abelhas" ] ,
+    "Imagem": "\\img\\pokemons\\002.png"
+  },
+  {
+    "Numero": 3,
+    "Nome": "Guardião da Colmeia",
+    "Tipo": [ "Tribo das Abelhas" ] ,
+    "Imagem": "\\img\\pokemons\\003.png"
+  },
+  {
+    "Numero": 4,
+    "Nome": "Cavaleiro da Colmeia",
+    "Tipo": [ "Tribo das Abelhas" ] ,
+    "Imagem": "\\img\\pokemons\\004.png"
+  },
+  {
+    "Numero": 5,
+    "Nome": "Soldados da Colmeia",
+    "Tipo": [ "Tribo das Abelhas" ] ,
+    "Imagem": "\\img\\pokemons\\005.png"
+  },
+  {
+    "Numero": 6,
+    "Nome": "Herrah a Besta",
+    "Tipo": [ "Tribo das Aranhas" ] ,
+    "Imagem": "\\img\\pokemons\\006.png"
+  },
+  {
+    "Numero": 7,
+    "Nome": "Pequenas Tecelãs",
+    "Tipo": [ "Tribo das Aranhas" ] ,
+    "Imagem": "\\img\\pokemons\\007.png"
+  },
+  {
+    "Numero": 8,
+    "Nome": "Parteira",
+    "Tipo": [ "Tribo das Aranhas" ] ,
+    "Imagem": "\\img\\pokemons\\008.png"
+  },
+  {
+    "Numero": 9,
+    "Nome": "Devoto Espreitador",
+    "Tipo": [ "Tribo das Aranhas" ] ,
+    "Imagem": "\\img\\pokemons\\009.png"
+  },
+  {
+    "Numero": 10,
+    "Nome": "Tecelã",
+    "Tipo": [ "Planta", "Venenoso" ] ,
+    "Imagem": "\\img\\pokemons\\0010.png"
   },
   {
     "Numero": 1,
@@ -22,59 +76,5 @@
     "Nome": "Bulbasaur",
     "Tipo": [ "Planta", "Venenoso" ] ,
     "Imagem": "\\img\\pokemons\\001.png"
-  },
-  {
-    "Numero": 1,
-    "Nome": "Bulbasaur",
-    "Tipo": [ "Planta", "Venenoso" ] ,
-    "Imagem": "\\img\\pokemons\\001.png"
-  },
-  {
-    "Numero": 1,
-    "Nome": "Bulbasaur",
-    "Tipo": [ "Planta", "Venenoso" ] ,
-    "Imagem": "\\img\\pokemons\\001.png"
-  },
-  {
-    "Numero": 1,
-    "Nome": "Bulbasaur",
-    "Tipo": [ "Planta", "Venenoso" ] ,
-    "Imagem": "\\img\\pokemons\\001.png"
-  },
-  {
-    "Numero": 1,
-    "Nome": "Bulbasaur",
-    "Tipo": [ "Planta", "Venenoso" ] ,
-    "Imagem": "\\img\\pokemons\\001.png"
-  },
-  {
-    "Numero": 1,
-    "Nome": "Bulbasaur",
-    "Tipo": [ "Planta", "Venenoso" ] ,
-    "Imagem": "\\img\\pokemons\\001.png"
-  },
-  {
-    "Numero": 1,
-    "Nome": "Bulbasaur",
-    "Tipo": [ "Planta", "Venenoso" ] ,
-    "Imagem": "\\img\\pokemons\\001.png"
-  },
-  {
-    "Numero": 1,
-    "Nome": "Bulbasaur",
-    "Tipo": [ "Planta", "Venenoso" ] ,
-    "Imagem": "\\img\\pokemons\\001.png"
-  },
-  {
-    "Numero": 1,
-    "Nome": "Bulbasaur",
-    "Tipo": [ "Planta", "Venenoso" ] ,
-    "Imagem": "\\img\\pokemons\\001.png"
-  },
-  {
-    "Numero": 1,
-    "Nome": "Bulbasaur",
-    "Tipo": [ "Planta", "Venenoso" ] ,
-    "Imagem": "\\img\\pokemons\\001.png"
-  },
+  }
 ]   
