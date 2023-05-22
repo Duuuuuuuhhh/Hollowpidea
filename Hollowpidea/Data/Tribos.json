@@ -40,35 +40,11 @@
     "Cor": "#b54"
   },
   {
-    "Nome": "Normal",
+    "Nome": "Tribo dos Tolos",
     "Cor": "#aa9"
   },
   {
-    "Nome": "Pedra",
+    "Nome": "A Trupe Grimm",
     "Cor": "#ba6"
-  },
-  {
-    "Nome": "Planta",
-    "Cor": "#7c5"
-  },
-  {
-    "Nome": "Psíquico",
-    "Cor": "#f59"
-  },
-  {
-    "Nome": "Sombrio",
-    "Cor": "#754"
-  },
-  {
-    "Nome": "Terrestre",
-    "Cor": "#db5"
-  },
-  {
-    "Nome": "Venenoso",
-    "Cor": "#a59"
-  },
-  {
-    "Nome": "Voador",
-    "Cor": "#89f"
   }
 ]
