@@ -16,8 +16,7 @@
                 </button>
                 @foreach (var tribo in Model.Tribos)
                 {
-                    <button id="btn-@tribo.Nome.ToLower()" class="btn btn-sm my-2 text-white
-btn-filter"
+                    <button id="btn-@tribo.Nome.ToLower()" class="btn btn-sm my-2 text-white btn-filter"
                         onclick="filter('@tribo.Nome.ToLower()')"
                         style="background-color:@tribo.Cor">
                         @tribo.Nome
@@ -36,11 +35,8 @@ btn-filter"
             @foreach (var personagem in Model.Personagens)
             {
                 <div class="col">
-                    <div class="card shadow-sm cursor-pointer @string.Join(' ',
-personagem.Tribo).ToLower()"
-                        onclick="GetInfo(@personagem.Numero)">
-                        <img src="@personagem.Imagem" class="card-img-top" width="100%"
-height="300" alt="@personagem.Nome" />
+                    <div class="card shadow-sm cursor-pointer @string.Join(' ',personagem.Tribo).ToLower()" onclick="GetInfo(@personagem.Numero)">
+                        <img src="@personagem.Imagem" class="card-img-top" width="100%"height="300" alt="@personagem.Nome" />
                         <div class="card-body">
                             <p class="card-text mb-0">Nº @personagem.Numero.ToString("000")</p>
                             <h3 class="card-title">@personagem.Nome</h3>
